@@ -9,9 +9,12 @@ body {
     background-color: #138e36;
     padding-top: 5pt;
     padding-bottom: 5pt;
-    padding-left: 5pt;
-    padding-right: 5pt;
     margin: 0;
+    transition: transform .2s;
+}
+
+.header:hover {
+    transform: scale(1.15);
 }
 
 .body {
@@ -24,4 +27,9 @@ body {
     background-color: #138e36;
     padding-top: 1.5pt;
     padding-bottom: 1.5pt;
+    transition: transform .2s;
+}
+
+.footer:hover {
+    transform: scale(1.15);
 }
